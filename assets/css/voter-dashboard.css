@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'oswald', sans-serif;
+}
+
+.header-section {
+    background-color: green;
+    display: flex;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.header-section h1 {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'oswald', sans-serif;
+    margin-left: 530px;
+}
+
+.header-section .back-btn {
+    margin-left: 10px;
+}
+
+.header-section .back-btn a {
+    color: #fff;
+    background-color: purple;
+    text-decoration: none;
+    border: none;
+    padding: 5px 19px;
+}
+
+.header-section .back-btn a:hover {
+    background-color: red;
+}
+
+.header-section .logout-btn {
+    margin-left: 550px;
+}
+
+.header-section .logout-btn a {
+    /* margin-left: 400px; */
+    color: #fff;
+    background-color: red;
+    text-decoration: none;
+    border: none;
+    padding: 5px 19px;
+}
+
+.header-section .logout-btn a:hover {
+    background-color: yellow;
+}
+
+.vote-cost {
+    background-color: green;
+    min-height: 340px;
+}
+
+.voter-details {
+    /* margin-top: 100px;
+    margin-left: 100px;
+    border: 1px solid green; */
+    text-align: center;
+    margin-top: 200px;
+    /* width: 30%;
+    text-align: center;
+    padding-top: 5px;
+    min-height: 220px; */
+}
+
+.voter-icon {
+    align-items: center;
+}
+
+.voter-icon img {
+    width: 12%;
+}
+
+.voter-details input {
+    outline: none;
+    padding: 3px 5px;
+    margin-left: 10px;
+}
+
+.voter-details label {
+    color: #fff;
+}
+
+.cost-btn a {
+    color: #fff;
+    background-color: blue;
+    text-decoration: none;
+    border: none;
+    /* padding: 1px 19px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 16px;
+}
+
+.cost-btn a:hover {
+    background-color: aqua;
+}

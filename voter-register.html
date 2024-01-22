@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting System</title>
+    <link rel="stylesheet" href="assets/css/voter-register.css">
+</head>
+<body>
+    <div class="header-section">
+        <h1>Voting System</h1>
+    </div>
+    <div class="voter">
+        <div class="voter-register">
+            <div class="head">
+                <h2>Registration</h2>
+            </div>
+    <div class="voter-part">
+        <input type="text" placeholder="Name">      
+        <input type="number" placeholder="CNIC">
+        <br>
+        <br>
+        <input type="number" placeholder="Mobile">
+        <input type="number" placeholder="Password">
+        <br>
+        <br>
+        <input type="text" style="width: 26%;" placeholder="Address">   
+        <br>
+        <br>
+        <form action="/action_page.php">
+            <p style="color: #fff; font-size: 12px; margin-top: 5px; font-family: 'oswald', sans-serif;">Upload Image</p>
+            <input type="file" id="myFile" name="filename">
+            <!-- <input type="submit"> -->
+          </form>
+        <label for="voter">Select your role:</label>
+        <select name="voter" id="voter">
+            <option value="voter">Voter</option>
+            <option value="group">Group</option>
+        </select>
+    </div>  
+    <div class="voter-register-btn">
+        <a href="#">Register</a>
+    </div>   
+    <div class="register">
+        <p>Already User?</p>
+        <a href="#">Login here</a>
+    </div>
+        </div>      
+    </div>
+  
+</body>
+</html>
+
